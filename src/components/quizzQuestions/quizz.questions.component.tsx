@@ -5,9 +5,8 @@ type QuizzQuestionsProps = {
 }
 
 const QuizzQuestions = ({ question }: QuizzQuestionsProps) => {
-  console.log('question', question)
   return (
-    <h3>{`fa ${question}` }</h3>
+    <h3>{ question }</h3>
   )
 }
 

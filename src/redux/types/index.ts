@@ -1,16 +1,11 @@
 export interface Answer {
-  score: number,
-  a: string,
-  b: string,
-  c: string,
-  d?: string,
-  e?: string,
-  f?: string
+  answer: string,
+  score: number
 }
 
 export interface ListQuestion {
   question: string,
-  answer: Answer[]
+  answerList: Answer[]
 }
 
 export interface Result {
